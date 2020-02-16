@@ -1,0 +1,62 @@
+header {
+    background-color: #d0dfeb;
+    height: 100px;
+    
+}
+
+body {
+    background-color: #f0f5f8;
+}
+
+#place {
+    position: relative;
+    top: -125px;
+    font-size: 50px;
+    font-family: cursive;
+
+
+}
+h2 {
+    position: relative;
+    top: -85px;
+    text-align: center;
+}
+
+#forcast {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 250px;
+    position: relative;
+    top: -75px;
+    
+    
+
+}
+
+#day-one, #day-two, #day-three, #day-four, #day-five {
+    
+    border: solid black 1px;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 3px;
+
+}
+
+#day, #date-two, #date-three, #date-four, #date-five {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #d0dfeb;
+    text-align: center;
+    font-size: 12px;
+    
+}
